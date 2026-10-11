@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 # 1. Load the trained pipeline once at startup
-model = joblib.load("/Users/aralolabamise-alabi/Documents/Health Price Estimator/insurance_model.pkl")
+model = joblib.load('insurance_model.pkl')
 
 st.title("Health Insurance Price Estimator")
 st.write("Enter the details of the patient to get a real-time prediction of an premium insurance price.")
